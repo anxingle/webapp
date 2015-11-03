@@ -28,7 +28,7 @@
 	margin-top:30px;   
 }
 .search {
- margin-right:-20px;
+ margin-top:30px;
 }
 
 .pic_list{
@@ -98,12 +98,21 @@
     		<p id="test-file-info" style="margin-left:40% ">点击进来啊！</p> 
 				<form  class="form-horizontal" role="form" action="upload" method="post" id="submit_id" name="myForm" enctype="multipart/form-data">
 				    <div class="form-group form_wrapper">
-				    <div class="col-sm-4">
-                    	<input type="file" class="upload" id="test-file"  name="file" />					
-					    <input type="submit" class="search" value="搜索" />  
+				    <div class="row">
+				     <div class="col-md-2"></div>
+				     <div class="col-md-2"></div>
+				     <div class="col-md-2">
+                    	<input type="file" class="upload" id="test-file"  name="file" />
+                    	</div>
+                     <div class="col-md-1"></div>
+                     <div class="col-md-2">				
+					    <input type="submit" class="search" value="搜索" />
+					    </div>  
 						<!-- <input type="submit"  value="搜索" />  -->
-						</div>
-					</div>
+					 <div class="col-md-1"></div>
+					 <div class="col-md-2"></div>
+					
+				    </div>
 				</form>
 	<script>
 					    function upload() {
