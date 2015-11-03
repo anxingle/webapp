@@ -3,7 +3,7 @@
 <head> 
 	<meta charset = "utf-8" />
 	<title> lele </title>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  //加入BootStrap
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  <!-- 加入BootStrap -->
 	<!-- <link rel="stylesheet" type="text/css " href="lele.css ">  -->
 </head>
 <STYLE type="text/css">
@@ -96,10 +96,12 @@
 		<div  id="test-image-preview" style="border: 0px solid rgb(204, 204, 204); height:200px;width:150px;background-size: contain; background-position:50% 50%; background-repeat: no-repeat;margin-left:35%;margin-top:5px;" > </div>	
 		-->	
     		<p id="test-file-info" style="margin-left:40% ">点击进来啊！</p> 
-				<form  action="upload" method="post" id="submit_id" name="myForm" enctype="multipart/form-data">
-				    <div class="form_wrapper">
+				<form  class="form-horizontal" role="form" action="upload" method="post" id="submit_id" name="myForm" enctype="multipart/form-data">
+				    <div class="form-group form_wrapper">
+				    <div class="col-sm-10">
                     	<input type="file" class="upload" id="test-file"  name="file" />					
 						<input type="submit" class="search" value="搜索" />
+						</div>
 					</div>
 				</form>
 	<script>
